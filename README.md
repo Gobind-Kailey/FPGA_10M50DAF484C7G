@@ -19,7 +19,7 @@ Example Showcase:
 You can see that in the Switches (SW) 3 downto 1 we have inputted 1001, that is 9 in decimal, and that is displayed in HEX0. 
 You can also noitce that switches 7 downto 4, we have input 0010 which correctly translates to a value of 2 in binary displayed on HEX1. 
 
-The code for this is attached in: [Binary to Decimal using 7 switches](Binary_to_Decimal_7)
+The code for this is attached in: [Binary to Decimal using 7 switches](Binary_to_decimal_7)
 
 ## **Second Test: Four-bit binary input to Two-digit Decimal Output.** 
 
