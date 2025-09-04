@@ -3,7 +3,8 @@ Learning how to code in Verilog and VHDL through QuartusPrime and simulating in 
 
 Below is my FPGA Board: 
 
-![IMG_6305](https://github.com/user-attachments/assets/c352d735-d8ab-4567-b431-3d97b45b21dd)
+![FPFA_MAX10](https://github.com/user-attachments/assets/6c286d56-efc1-4ed0-b6c2-7f449e3d87bd)
+
 
 
 ## **First Test: Binary-to-decimal number converter.**
@@ -14,7 +15,8 @@ For example, in the image below
 - Anything above 9 will just be dispaced as a dont care, and I have it programmed to switch that specific HEX off. 
 
 Example Showcase: 
-![IMG_5960 (2)](https://github.com/user-attachments/assets/0a2bdca5-132a-4595-ad67-fadace0e5203)
+![IMG_5960 (3)](https://github.com/user-attachments/assets/92ba19c1-1a7b-4740-b2e4-92808bc16da8)
+
 
 You can see that in the Switches (SW) 3 downto 1 we have inputted 1001, that is 9 in decimal, and that is displayed in HEX0. 
 You can also noitce that switches 7 downto 4, we have input 0010 which correctly translates to a value of 2 in binary displayed on HEX1. 
@@ -30,7 +32,8 @@ Use a comparator to check when the value of V is greater than 9, and use the out
 Another example shown below would be if V=1011, the binary value translates to a decimal value of 11, which is displayed as expected. 
 
 Example Showcase: 
-![IMG_5986](https://github.com/user-attachments/assets/421049d4-a5ad-4760-baa2-e818b5e3ace1)
+![IMG_5986 (1)](https://github.com/user-attachments/assets/81d7f4d1-c703-4644-a79e-e850b53ea3cb)
+
 
 The Code for this is attached in:  [Binary to Decimal using 4 switches](Binary_to_Decimal_4)
 
